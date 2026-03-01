@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>image_viewer</title>
+    <style>
+        body { text-align: center; background: #222; color: white; }
+        img { max-width: 90%; max-height: 80vh; margin-top: 20px; border: 2px solid #555; }
+    </style>
+</head>
+<body>
+    <h1>image_viewer</h1>
+    <button id="openBtn">フォルダを選択する</button>
+    <p>フォルダを選んだ後、左右の矢印キーで移動できます</p>
+    <br>
+    <img id="viewer" src="" style="display:none;">
+
+    <script src="./dist/renderer.js"></script>
+</body>
+</html>

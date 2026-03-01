@@ -1,0 +1,19 @@
+{
+  "name": "my-image-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "electron": "^40.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
